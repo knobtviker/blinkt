@@ -1,0 +1,39 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.knobtviker.android.things.contrib.community.device'
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'com.knobtviker.android.things.contrib.community.device'
+                artifactId 'blinkt'
+
+                name 'blinkt'
+                description 'Android Things Pimoroni Blinkt! device driver'
+                url 'https://github.com/knobtviker/blinkt'
+
+                licenses {
+                    license {
+                        name 'MIT'
+                        url 'https://github.com/knobtviker/blinkt/blob/master/LICENSE'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'knobtviker'
+                        name 'Bojan Komljenović'
+                        email 'knobtviker@gmail.com'
+                    }
+                }
+                scm {
+                    connection 'https://github.com/knobtviker/blinkt.git'
+                    developerConnection 'https://github.com/knobtviker/blinkt.git'
+                    url 'https://github.com/knobtviker/blinkt'
+
+                }
+            }
+        }
+    }
+}
