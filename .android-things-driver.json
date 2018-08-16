@@ -1,0 +1,16 @@
+{
+    "title": "Blinkt!",
+    "category": "RGB LED",
+    "published-maven": {
+        "maven-url": "https://dl.bintray.com/knobtviker/maven",
+        "groupid": "com.knobtviker.android.things.contrib.community.device",
+        "artifactid": "blinkt"
+    },
+    "compatible-with": [
+        {
+            "title": "Pimoroni Blinkt!",
+            "url": "https://shop.pimoroni.com/products/blinkt",
+            "photo": "https://cdn.shopify.com/s/files/1/0174/1800/products/Blinkt_67c0ebde-d0ab-474f-be1a-3a05b1e35489_1024x1024.JPG"
+        }
+    ]
+}
